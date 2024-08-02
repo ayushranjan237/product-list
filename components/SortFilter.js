@@ -8,8 +8,8 @@ const SortFilter = ({ setSortOrder, setCategory }) => (
         <option value="">All Categories</option>
         <option value="electronics">Electronics</option>
         <option value="jewelery">Jewelery</option>
-        <option value="men's clothing">Men's Clothing</option>
-        <option value="women's clothing">Women's Clothing</option>
+        <option value="men&apos;s clothing">Men&apos;s Clothing</option> {/* Escaped single quote */}
+        <option value="women&apos;s clothing">Women&apos;s Clothing</option> {/* Escaped single quote */}
       </select>
     </div>
   );
